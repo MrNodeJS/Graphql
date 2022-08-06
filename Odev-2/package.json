@@ -1,0 +1,19 @@
+{
+  "name": "first-graphql-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.10.0",
+    "apollo-server-core": "^3.10.0",
+    "graphql": "^16.5.0",
+    "nanoid": "^4.0.0",
+    "nodemon": "^2.0.19"
+  }
+}
