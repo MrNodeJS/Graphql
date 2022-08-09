@@ -4,7 +4,7 @@ const pubsub                                   = require('./pubsub');
 
 let generateID = () => parseInt(Date.now().toString().slice(5));
 
-const typeDefs = /* GraphQL */ `
+const typeDefs  = /* GraphQL */ `
     type deletedOutput{
         count:Int!
     }
