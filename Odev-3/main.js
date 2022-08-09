@@ -132,7 +132,6 @@ const typeDefs  = /* GraphQL */ `
         participantCreated: Participant!
     }
 `;
-
 const resolvers = {
 	Query       : {
 		users: () => users,
@@ -309,7 +308,6 @@ const resolvers = {
 		}
 	}
 };
-
 const server = createServer({
 	schema    : {
 		typeDefs,

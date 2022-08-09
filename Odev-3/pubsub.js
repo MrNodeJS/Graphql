@@ -10,7 +10,7 @@ const options = {
 	}
 };
 
-const pubsub = new RedisPubSub({
+const pubsub  = new RedisPubSub({
 	publisher : new Redis(options),
 	subscriber: new Redis(options)
 });
