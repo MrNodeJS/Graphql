@@ -1,0 +1,19 @@
+{
+  "name": "first-graphql-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-yoga/node": "^2.13.6",
+    "graphql": "^16.5.0",
+    "graphql-redis-subscriptions": "^2.5.0",
+    "ioredis": "^5.2.2",
+    "nodemon": "^2.0.19"
+  }
+}
